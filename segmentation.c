@@ -95,6 +95,7 @@ PHP_FUNCTION(segmentation)
 			//php_printf("%s ", node->word->str->str);
 		} while((node = node->next) != NULL);
 	}
+	free_result(r);
 }
 
 /* {{{ php_segmentation_init_globals
