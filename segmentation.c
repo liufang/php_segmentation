@@ -163,9 +163,9 @@ PHP_MINFO_FUNCTION(segmentation)
 	php_info_print_table_header(2, "Extension Version", "1.0");
 	php_info_print_table_end();
 
-	/* Remove comments if you have entries in php.ini
+	/* Remove comments if you have entries in php.ini */
 	DISPLAY_INI_ENTRIES();
-	*/
+
 }
 /* }}} */
 

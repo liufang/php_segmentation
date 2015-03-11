@@ -21,7 +21,7 @@
 #ifndef PHP_SEGMENTATION_H
 #define PHP_SEGMENTATION_H
 
-#include "segmentation/seg.h"
+#include "segmentation/segmentation.h"
 
 extern zend_module_entry segmentation_module_entry;
 #define phpext_segmentation_ptr &segmentation_module_entry
